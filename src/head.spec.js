@@ -10,12 +10,5 @@ describe('Head', function()  {
 		expect(head([])).toEqual(undefined);
 	});
 	
-	it('head of [4,7,2,1,3] is 4', function() {
-		expect(head([4,7,2,1,3])).toEqual(4);
-	});
-	
-
-
-
 	
 })
