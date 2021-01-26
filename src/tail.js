@@ -1,5 +1,11 @@
-var tail =  function(array) {
-    array.splice(0,1);
-    return array;
-  }
+const tail = (array) => {
+
+    let result= [];
+    for(let i = 1; i<array.length; i++){
+		result.push(array[i]);
+	}
+    return result;
+
+ }
+
 module.exports = tail;
